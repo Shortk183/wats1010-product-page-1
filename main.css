@@ -23,5 +23,28 @@ body {
   min-height: 120px;
 }
 
+#customer-one {
+  padding: 20px;
+  min-height: 250px;
+  background: lightgreen;
+  margin-bottom: 10px;
+  float: right;
+  text-align: center;
+  font-family: courier new;
+}
 
+#customer-two {
+  padding: 20px;
+  min-height: 250px;
+  background: lightgray;
+  margin-bottom: 10px;
+  float: center;
+}
 
+#customer-three {
+  padding: 20px;
+  min-height: 250px;
+  background: snow;
+  margin-bottom: 10px;
+  float: center;
+}
