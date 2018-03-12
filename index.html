@@ -1,54 +1,216 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
-        <title>API Superstore</title>
-        <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
 
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-        <!-- End Bootstrap CSS Framework -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Imaginary Product" content="">
+  <meta name="Kristi Short" content="">
 
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="favicon" href="favicon.ico">
+  <title>Imaginary Product</title>
 
-    </head>
-    <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+  <!-- Bootstrap CSS Framework -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- End Bootstrap CSS Framework -->
 
-        <!-- TODO: Create an area to put the explainer video. -->
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="new_favicon.ico" type="image/x-icon">
+ 
 
-        <!-- TODO: Create an area to put the long product description. -->
+</head>
 
-        <!-- TODO: Create an area to put customer testimonials. -->
+<body id="page-top">
 
-        <!-- TODO: Create an area to show features. -->
+  <!-- Nav Bar-->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <h1> <a class="navbar-brand" href="#">API Superstore</a></h1>
 
-        <!-- TODO: Create an area to show company contact info (phone,
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-leaf"></span> Products</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+ <!-- Nav bar close-->
+  
+
+  <!-- About -->
+  <div style="text-align:center">
+    <img src="api_superstore_logo_bw.png" alt="Superstore">
+  </div>
+
+  <div class="content">
+    <div class="col-lg-10">
+      <h2 class="aboutheader"> Who we are</h2>
+      <p>API has been serving the local community for over 25 years with the leading product while building a better business solution. Fast, eligant, user friendly and ready for you to fall in love with, we offer multiple choices to meet any business need.
+        We also offer a 30 day free trail on our Flex package and mobile user application upgrade.</p>
+    </div>
+  </div>
+ 
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="embed-responsive embed-responsive-16by9" id="video">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L48g1ZWLMdo" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+      <div id="customer-one">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="Customer_1.jpg" alt="custmer testimonials">
+            <p>I run a large law firm and we needed to get<br> organized fast! API sent in a crew to help set<br> up and do demo learning session for all of our staff.<br> These guys are amazing and the software<br> is very user friendly.</p><br>Devin B.<br>
+          </div>
+        </div>
+        <div id="customer-two">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="Customer_2.jpg" alt="custmer testimonials">
+              <p>We needed a business upgarade, a friend<br>recommened API,they made it a smooth and<br> affordable transition. We are very happy with
+                < our<br> choice of the Flex package and will be a customer for life!</p>
+            </div>
+          </div>
+          <div id="customer-three">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="Customer_3.jpg" alt="custmer testimonials">
+                <p>"I have been using API for all my business<br> network needs and have seen amazing results!"<br><br> Charlie<br>San Jose CA </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About close  -->
+
+
+
+    <!--Footer-->
+    <!--Grid column-->
+    <div class="col-md-8 col-lg-8">
+      <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+
+        <!--Footer Links-->
+        <div class="container text-center text-md-left">
+
+          <!-- Footer links -->
+          <div class="row text-center text-md-left mt-3 pb-3">
+
+            <!--First column-->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold"><b>API Superstore</b></h6>
+              <p>Here you can use rows and columns here to organize your footer content.</p>
+            </div>
+            <!--/.First column-->
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <!--Second column-->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+              <p><a href="#!">MDBootstrap</a></p>
+              <p><a href="#!">MDWordPress</a></p>
+              <p><a href="#!">BrandFlow</a></p>
+              <p><a href="#!">Bootstrap Angular</a></p>
+            </div>
+            <!--/.Second column-->
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <!--Third column-->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+              <p><a href="#!">Your Account</a></p>
+              <p><a href="#!">Become an Affiliate</a></p>
+              <p><a href="#!">Shipping Rates</a></p>
+              <p><a href="#!">Help</a></p>
+            </div>
+            <!--/.Third column-->
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <!--Fourth column-->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+              <p><i class="fa fa-envelope mr-3"></i> shortK183@seattleu.edu</p>
+              <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!--/.Fourth column-->
+
+          </div>
+          <!-- Footer links -->
+
+          <hr>
+
+          <div class="row py-3 d-flex align-items-center">
+
+            <!--Grid column-->
+            <div class="col-md-8 col-lg-8">
+
+              <!--Copyright-->
+              <p class="text-center text-md-left grey-text">© 2018 Copyright: <a href="https://mdbootstrap.com/material-design-for-bootstrap/"><strong> MDBootstrap.com</strong></a></p>
+              <!--/.Copyright-->
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-4 col-lg-4 ml-lg-0">
+
+              <!--Social buttons-->
+              <div class="text-center text-md-right">
+                <ul class="list-unstyled list-inline">
+                  <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+              <!--/.Social buttons-->
+
+            </div>
+            <!--Grid column-->
+
+          </div>
+
+        </div>
+
+      </footer>
+      <!--/.Footer-->
+
+      <!-- TODO: Create an area to put the long product description. -->
+
+      <!-- TODO: Create an area to put customer testimonials. -->
+
+      <!-- TODO: Create an area to show features. -->
+
+      <!-- TODO: Create an area to show company contact info (phone,
              location, etc.) -->
 
-        <!-- TODO: Create an area that allows users to Share links to the
+      <!-- TODO: Create an area that allows users to Share links to the
              page. -->
 
-        <!-- TODO: Create a call to action link to get users to sign up for the
+      <!-- TODO: Create a call to action link to get users to sign up for the
              service. -->
-    </body>
+
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>

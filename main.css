@@ -1,8 +1,27 @@
 /* Styles for Product Page Customization */
+
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+  background: linear-gradient(white, white, gray);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+.content {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  font-size: 30px;
+  font-family: courier new;
+  text-align: center;
+}
+
+.navbar-header {
+  min-height: 120px;
+}
+
+
+
