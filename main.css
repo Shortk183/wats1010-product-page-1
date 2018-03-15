@@ -1,59 +1,52 @@
 /* Styles for Product Page Customization */
 
 /* NOTE: Do not edit the Bootstrap CSS files. */
-
+html{
+  font-family: courier new;
+}
 body {
-  background: linear-gradient(white, white, gray);
+  background: linear-gradient(white, pink, gray);
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
-.content {
-  max-width: 900px;
-  margin: auto;
-  padding: 30px;
-  font-size: 30px;
-  font-family: courier new;
-  text-align: center;
-}
-
 .navbar-header {
   min-height: 120px;
 }
 
-#customer-one {
-  padding: 20px;
+.testimonies {
+  padding: 10px;
   min-height: 250px;
-  background: lightgreen;
   margin-bottom: 10px;
-  float: right;
+  float: center;
   text-align: center;
   font-family: courier new;
 }
 
-#customer-two {
-  padding: 20px;
-  min-height: 250px;
-  background: lightgray;
-  margin-bottom: 10px;
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  font-family: courier new;
+}
+.content{
+  max-width: 900px;
+  margin: auto;
+  padding:30px;
+  text-align: center;
+  font-family: courier new;
+  font-size: 30px;
   float: center;
 }
 
-#customer-three {
-  padding: 20px;
-  min-height: 250px;
-  background: purple;
-  margin-bottom: 10px;
-  float: center;
-}
-hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-} 
