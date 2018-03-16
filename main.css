@@ -1,9 +1,11 @@
 /* Styles for Product Page Customization */
 
 /* NOTE: Do not edit the Bootstrap CSS files. */
-html{
+
+html {
   font-family: courier new;
 }
+
 body {
   background: linear-gradient(white, pink, gray);
   height: 100%;
@@ -11,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .navbar-header {
   min-height: 120px;
 }
@@ -40,13 +43,23 @@ hr {
   background-size: contain, cover;
   font-family: courier new;
 }
-.content{
+
+.content {
   max-width: 900px;
   margin: auto;
-  padding:30px;
+  padding: 30px;
   text-align: center;
   font-family: courier new;
   font-size: 30px;
   float: center;
+  font-weight: bold;
 }
 
+.call-to-action {
+  font-family: courier new;
+  padding: 30px;
+  font-weight: bold;
+}
+ h2,h4 {
+  font-weight: bold;
+}
