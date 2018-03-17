@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background: linear-gradient(white, pink, gray);
+  background: linear-gradient(white,white, pink, gray);
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@ hr {
   font-family: courier new;
   font-size: 30px;
   float: center;
-  font-weight: bold;
+  
 }
 
 .call-to-action {
@@ -60,6 +60,9 @@ hr {
   padding: 30px;
   font-weight: bold;
 }
- h2,h4 {
+ h4 {
   font-weight: bold;
+}
+.footer {
+  text-align: center;
 }
